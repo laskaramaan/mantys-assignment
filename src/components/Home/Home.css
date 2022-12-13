@@ -1,0 +1,148 @@
+.home-page-style {
+  width: 100%;
+}
+.div-main {
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 400px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+.head {
+  color: rgb(28, 28, 94);
+}
+
+.slot-div {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+ 
+}
+.slot-style {
+  padding: 8px 25px;
+  margin: 10px;
+  border: 1px solid rgb(28, 28, 94);
+  border-radius: 6px;
+  font-weight: bold;
+  background-color: rgb(56, 56, 133);
+  color: white;
+  width: 100px;
+}
+.slot-style:hover {
+  cursor: pointer;
+  color: rgb(28, 28, 94);
+  background-color: white;
+}
+.slot-style:active {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+}
+.slot-style-booked {
+  position: relative;
+  padding: 8px 25px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  width: 100px;
+ 
+}
+.slot-style-booked:hover {
+  cursor: pointer;
+ 
+}
+.slot-style:active {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+}
+.day-style {
+  padding: 8px 11px;
+  margin: 10px;
+  /* border: 1px solid green; */
+  border-radius: 3px;
+  font-weight: bold;
+  /* background-color: green; */
+  color: black;
+  width: 100px;
+}
+.day-style:hover {
+  cursor: pointer;
+  color: rgb(28, 28, 94);
+  background-color: white;
+}
+.day-style:active {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
+.day-style-selected {
+  position: relative;
+  padding: 8px 11px;
+  margin: 10px;
+  border: 1px solid green;
+  border-radius: 3px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+  width: 100px;
+}
+.day-style-selected:hover {
+  cursor: pointer;
+  color: rgb(28, 28, 94);
+  background-color: green;
+}
+
+.call-icon {
+  left: 20px;
+  position: absolute;
+  color: white;
+  bottom: 9px;
+}
+@media screen and (max-width: 1024px) {
+  .div-main {
+    width: 85%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .slot-div {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ justify-content: space-between;
+  }
+
+  .slot-style {
+   
+    width: 80px;
+  }
+  .day-style {
+   
+    width: 80px;
+  }
+  .day-style-selected{
+    width: 80px;
+  }
+  .slot-style-booked {
+    width: 80px;
+  }
+}

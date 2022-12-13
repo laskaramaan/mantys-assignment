@@ -1,0 +1,52 @@
+.input-div-style > p {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.input-div-style > input {
+  border: 2px solid rgb(28, 28, 94);
+  outline: 0;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: rgb(28, 28, 94);
+  font-weight: bold;
+}
+
+.submit-button {
+  padding: 8px 25px;
+  width: 100%;
+  border: 1px solid rgb(28, 28, 94);
+  border-radius: 3px;
+  font-weight: bold;
+  background-color: rgb(28, 28, 94);
+  color: white;
+  margin-top: 15px;
+}
+.submit-button:hover {
+  cursor: pointer;
+  color: rgb(28, 28, 94);
+  background-color: white;
+}
+.submit-button:active {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+}
+
+.close-modal{
+    position: absolute;
+    color: white;
+    background-color: red;
+    font-size: 14px;
+    top: 7px;
+    right: 7px;
+    padding: 4px 5px;
+    border-radius: 50%;
+    border: 1px solid red;
+
+}
+.close-modal:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}

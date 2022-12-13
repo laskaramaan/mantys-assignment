@@ -1,0 +1,42 @@
+
+
+.header-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+    color: white;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+.header-routes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+   
+}
+.header-route{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.header-button{
+    background-color: white;
+    color: black;
+    padding: 6px 10px !important;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.header-button:hover{
+    color: white;
+    background-color: black;
+}
