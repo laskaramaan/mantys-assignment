@@ -28,7 +28,7 @@ const Home = () => {
         <div className="slot-div">
           {days.map((day, i) => (
             <div
-               onClick={() => setSelectedDay(day)}
+              onClick={() => setSelectedDay(day)}
               className={
                 day === selectedDay ? "day-style-selected" : "day-style"
               }
@@ -47,21 +47,23 @@ const Home = () => {
               }
               key={slot.id}
             >
-              {slot.information.name }
-              {slot.time}
+              <p> {slot.time}</p>
+              <p>{slot.information.name}</p>
+
+              <p>{slot.information.number}</p>
             </div>
           ))}
         </div>
       </div>
-     <div >
-     <BookingModal
-        selectedSlot={selectedSlot}
-        closeModal={closeModal}
-        openModal={openModal}
-        modalIsOpen={modalIsOpen}
-        selectedDay={selectedDay}
-      ></BookingModal>
-     </div>
+      <div>
+        <BookingModal
+          selectedSlot={selectedSlot}
+          closeModal={closeModal}
+          openModal={openModal}
+          modalIsOpen={modalIsOpen}
+          selectedDay={selectedDay}
+        ></BookingModal>
+      </div>
     </div>
   );
 };

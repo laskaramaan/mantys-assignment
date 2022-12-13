@@ -4,25 +4,26 @@
 .div-main {
   width: 50%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  height: 400px;
+  height: 100%;
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 40px;
   padding: 20px;
   border-radius: 10px;
   background-color: white;
+ 
 }
 .head {
   color: rgb(28, 28, 94);
 }
 
 .slot-div {
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr); */
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: wrap; */
+  
  
  
 }
@@ -35,6 +36,11 @@
   background-color: rgb(56, 56, 133);
   color: white;
   width: 100px;
+  height: 118px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
 }
 .slot-style:hover {
   cursor: pointer;
@@ -42,9 +48,9 @@
   background-color: white;
 }
 .slot-style:active {
-  background-color: red;
-  color: white;
-  border: 1px solid red;
+  background-color: white;
+  color: rgb(28, 28, 94);
+  
 }
 .slot-style-booked {
   position: relative;
@@ -56,17 +62,13 @@
   background-color: black;
   color: white;
   width: 100px;
- 
+ height: 118px;
 }
 .slot-style-booked:hover {
   cursor: pointer;
  
 }
-.slot-style:active {
-  background-color: red;
-  color: white;
-  border: 1px solid red;
-}
+
 .day-style {
   padding: 8px 11px;
   margin: 10px;
@@ -126,23 +128,33 @@
     /* display: grid;
     grid-template-columns: repeat(2, 1fr); */
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
- justify-content: space-between;
+ justify-content: space-between; */
   }
 
   .slot-style {
    
-    width: 80px;
+   
+    width: 130px;
+    height: 132px;
+    padding: 0 0;
   }
   .day-style {
    
-    width: 80px;
+    width: 97px;
   }
   .day-style-selected{
-    width: 80px;
+    width: 97px;
   }
   .slot-style-booked {
-    width: 80px;
+   
+    width: 130px;
+    height: 132px;
+    padding: 0 0;
   }
 }

@@ -21,8 +21,9 @@
   background-color: rgb(28, 28, 94);
   color: white;
   margin-top: 15px;
+  cursor: pointer;
 }
-.submit-button:hover {
+/* .submit-button:hover {
   cursor: pointer;
   color: rgb(28, 28, 94);
   background-color: white;
@@ -31,22 +32,21 @@
   background-color: red;
   color: white;
   border: 1px solid red;
-}
+} */
 
 .close-modal{
     position: absolute;
     color: white;
-    background-color: red;
+    background-color: white;
     font-size: 14px;
     top: 7px;
     right: 7px;
     padding: 4px 5px;
     border-radius: 50%;
     border: 1px solid red;
+    color: red;
 
 }
 .close-modal:hover{
-    background-color: white;
-    color: red;
     cursor: pointer;
 }
