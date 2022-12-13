@@ -48,7 +48,7 @@ const Home = () => {
               key={slot.id}
             >
               <p> {slot.time}</p>
-              <p>{slot.information.name}</p>
+              <p style={{maxWidth:"100px",textAlign:"center"}}>{slot.information.name}</p>
 
               <p>{slot.information.number}</p>
             </div>
